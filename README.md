@@ -285,8 +285,6 @@ Setelah itu akan dibawa ke halaman seperti dibawah.
 ![admin-artikel](img/admin-artikel.png)
 
 
-![tugas](img/ujicoba-login.png)
-
 
 ## 9). MEMBUAT PAGINATION
 Untuk membuat pagination,buka Kembali **Controllers Artikel**, kemudian modifikasi kode pada method **admin_index** seperti berikut.
