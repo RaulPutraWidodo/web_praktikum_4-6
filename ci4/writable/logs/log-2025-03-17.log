@@ -1,0 +1,157 @@
+CRITICAL - 2025-03-17 05:30:09 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-03-17 05:35:15 --> Invalid file: about.php
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1089): CodeIgniter\View\View->render('about', Array, true)
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(10): view('about', Array)
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Page->about()
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2025-03-17 05:56:23 --> Invalid file: contact.php
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact.php')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1089): CodeIgniter\View\View->render('contact', Array, true)
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(18): view('contact', Array)
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Page->contact()
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2025-03-17 05:58:26 --> Invalid file: contact.php
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact.php')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(1089): CodeIgniter\View\View->render('contact', Array, true)
+#2 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\page.php(18): view('contact', Array)
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Page->contact()
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2025-03-17 06:04:03 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('artikel')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('artikel')
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-03-17 06:04:05 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('artikel')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('artikel')
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-03-17 06:04:05 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('artikel')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('artikel')
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-03-17 06:04:40 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('artikel')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('artikel')
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-03-17 06:04:42 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('artikel')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('artikel')
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2025-03-17 06:05:03 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('artikel')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('artikel')
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2025-03-17 08:59:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-03-17 08:59:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\Artikel.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#7 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2025-03-17 09:00:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-03-17 09:00:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\Artikel.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#7 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2025-03-17 09:02:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-03-17 09:02:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\Artikel.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#7 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2025-03-17 09:03:10 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-03-17 09:03:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\Artikel.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#7 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2025-03-17 09:03:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-03-17 09:03:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\lab11_ci\ci4\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\lab11_ci\ci4\app\Controllers\Artikel.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#7 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
