@@ -1,7 +1,9 @@
-|   Fadil Aditya Adzima        |       312310617       |
-|-----------------------|-----------------------|
-|    TI.23.A.6          |   PEMROGRAMAN WEB 2     |
-
+| UTS  |  Pemrograman Web 2  
+|-------|---------
+| NIM   | 312310610
+| Nama  | Raul Putra Widodo
+| Kelas | TI.23.A.6
+| Dosen |  Agung Nugroho, S.Kom., M.Kom.
 
 ## LAB 11 WEB
 
