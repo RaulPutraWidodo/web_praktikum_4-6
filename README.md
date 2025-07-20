@@ -1,9 +1,6 @@
-| UTS  |  Pemrograman Web 2  
-|-------|---------
-| NIM   | 312310610
-| Nama  | Raul Putra Widodo
-| Kelas | TI.23.A.6
-| Dosen |  Agung Nugroho, S.Kom., M.Kom.
+|Nama|NIM|Kelas|Mata Kuliah|
+|----|---|-----|------|
+|**Raul Putra Widodo**|**312310610**|**TI.23.A.6**|**Pemrograman Web 2**|
 
 ## LAB 11 WEB
 
